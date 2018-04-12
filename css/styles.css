@@ -1,0 +1,29 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.laughing {
+    height: 400px;
+}
+
+.margin {
+    margin-top: 100px;
+}
+
+.link {
+    text-align: center;
+}
+
+a:-webkit-any-link {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 4em;
+}

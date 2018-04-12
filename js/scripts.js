@@ -1,4 +1,4 @@
-console.log(myName);
+/*console.log(myName);
 var myName= 30;
 myName = new Number(myName);
 console.log(typeof(myName));
@@ -27,5 +27,7 @@ alert(rightNow);
 // PROMPT
 const userStory = prompt('Tell me, do you take walks');
 
-console.log(userStory);
+console.log(userStory);*/
+
+
 
