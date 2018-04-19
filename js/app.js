@@ -1,3 +1,7 @@
+let userName = prompt('Your name young padawan, what is, hmm?');
+console.log(userName);
+let jediOrder = prompt("Arrived " + userName + " i'm glad you have. Yes, hrrmmm.The jedi order this is. Stray to the dark side you must not. Yes, hrrmmm.")
+
 const redButton = document.querySelector('#red');
 const redLs = document.querySelector('#red-ls');
 redLs.className = 'hide';
