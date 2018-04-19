@@ -57,13 +57,12 @@ console.log(obj1 === obj2);
 
 // NaN not a number
 
-
-console.log(typeof ("three" * 15));
+// console.log(typeof ("three" * 15));
 
 // console.log(isNaN("three" * 15));
 
 
-let theirValue = prompt('Give me a number');
+/*let theirValue = prompt('Give me a number');
 
 theirValue = parseInt(theirValue);
 
