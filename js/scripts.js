@@ -1,14 +1,52 @@
-console
-.log( // This is where the function is called
-    "hello world" //This is the argument/parameter
-); //Method which is a type of function
-//In your browser's console, the RETURN is what gets printed;
+// let age = parseInt(prompt("How old is your dog?"));
+
+// if(!isNaN(age)){
+//     // call the function
+// } else {
+//     let secondTry = parseInt(prompt("dude, I said an age.."));
+// }
+// let human = 7;
+
+// function dogsAge () {
+//     return age * human;
+// };
+
+// alert(dogsAge());
+
+// function lastChance() {
+//     let newValue = parseInt(prompt("hey man, give me an age already."));
+//     if(!isNaN(newValue)) {
+//         alert(newValue)
+//     } else {
+//         lastChance();
+//     }
+// }
 
 
-function sayHello(name, greeting) {
-    return `Hello ${name}, ${greeting}!`;
+let age = parseInt(prompt("How old are you?"));
+
+function yearsLeft (age) {
+    return 80 - age
 }
 
-let myGreeting = sayHello("Connie", "You're the greatest!");
+let ageLeft = yearsLeft(age);
 
-alert(myGreeting);
+function daysLeft (yearsLeft) {
+    return yearsLeft * 365
+}
+
+let daysLifeLeft = daysLeft(ageLeft);
+
+let productUse = parseInt(prompt("How many sparkling waters do you drink a day?"))
+
+function lifeSupply (daysLifeLeft, productUse) {
+    return daysLifeLeft * productUse
+}
+
+let lifetimeSupply = lifeSupply(productUse);
+
+alert(lifetimeSupply);
+
+
+
+
