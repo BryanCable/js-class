@@ -50,6 +50,22 @@
 //     div.className='yellow';
 // })
 
+const fahrenheit = document.getElementById('fahrenheit');
+const celsius = document.getElementById('celsius');
+
+fahrenheit.addEventListener('keyup', e => celsius.value = ( fahrenheit.value-32 ) * 5/9);
+
+celsius.addEventListener('keyup', e => fahrenheit.value = ( celsius.value *9/5 ) + 32);
+
+
+
+
+
+
+
+
+
+
 
 
 
